@@ -7,8 +7,8 @@
     <ProjectGuid>{DFDA763F-0DDE-4EF5-B7C2-A21FDAC40516}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Core</RootNamespace>
-    <AssemblyName>Core</AssemblyName>
+    <RootNamespace>Moq.EntityFramework6.Helpers.Examples</RootNamespace>
+    <AssemblyName>Moq.EntityFramework6.Helpers.Examples</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

@@ -1,11 +1,11 @@
-﻿namespace Core
+﻿namespace Moq.EntityFramework6.Helpers.Examples
 {
     using System.Collections.Generic;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     using System.Linq;
+    using DbAsyncQueryProvider;
     using Moq;
-    using Moq.EntityFramework6.Helpers.DbAsyncQueryProvider;
     using Ploeh.AutoFixture;
     using Xunit;
 

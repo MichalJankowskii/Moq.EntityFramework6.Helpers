@@ -1,4 +1,4 @@
-﻿namespace Core
+﻿namespace Moq.EntityFramework6.Helpers.Examples
 {
     using System.Collections.Generic;
 

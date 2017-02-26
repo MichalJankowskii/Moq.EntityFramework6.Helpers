@@ -1,7 +1,5 @@
-﻿namespace Core
+﻿namespace Moq.EntityFramework6.Helpers.Examples
 {
-    using System.Collections.Generic;
-
     public class Role
     {
         public int Id { get; set; }
