@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moq.EntityFramework6.Helpers.Examples", "Moq.EntityFramework6.Helpers.Examples\Moq.EntityFramework6.Helpers.Examples.csproj", "{DFDA763F-0DDE-4EF5-B7C2-A21FDAC40516}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moq.EntityFramework6.Helpers.Tests", "Moq.EntityFramework6.Helpers.Tests\Moq.EntityFramework6.Helpers.Tests.csproj", "{5DDFF195-52B7-4725-9483-CB868100A6F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moq.EntityFramework6.Helpers", "Moq.EntityFramework6.Helpers\Moq.EntityFramework6.Helpers.csproj", "{B09A9280-6C94-4BDA-A8D9-1367413481E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFDA763F-0DDE-4EF5-B7C2-A21FDAC40516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFDA763F-0DDE-4EF5-B7C2-A21FDAC40516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFDA763F-0DDE-4EF5-B7C2-A21FDAC40516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFDA763F-0DDE-4EF5-B7C2-A21FDAC40516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DDFF195-52B7-4725-9483-CB868100A6F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DDFF195-52B7-4725-9483-CB868100A6F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DDFF195-52B7-4725-9483-CB868100A6F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DDFF195-52B7-4725-9483-CB868100A6F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B09A9280-6C94-4BDA-A8D9-1367413481E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B09A9280-6C94-4BDA-A8D9-1367413481E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B09A9280-6C94-4BDA-A8D9-1367413481E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B09A9280-6C94-4BDA-A8D9-1367413481E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
