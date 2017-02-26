@@ -1,0 +1,6 @@
+language: csharp
+solution: ./src/Moq.EntityFramework6.Helpers.sln
+script:
+  - xbuild /p:Configuration=Release ./src/Moq.EntityFramework6.Helpers.sln
+  - mono ./src/packages/xunit.runner.console.*/tools/xunit.console.exe ./src/Moq.EntityFramework6.Helpers.Tests/bin/Release/Moq.EntityFramework6.Helpers.Tests.dll
+  - mono ./src/packages/xunit.runner.console.*/tools/xunit.console.exe ./src/Moq.EntityFramework6.Helpers.Examples/bin/Release/Moq.EntityFramework6.Helpers.Examples.dll
