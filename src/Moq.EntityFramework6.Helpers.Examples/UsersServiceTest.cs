@@ -55,10 +55,8 @@
                 fixture.Build<User>().With(u => u.AccountLocked, false).Create()
             };
 
-            var usersMock = CreateDbSetMock(users);
-
             var userContextMock = new Mock<UsersContext>();
-            userContextMock.Setup(x => x.Users).Returns(usersMock.Object);
+            userContextMock.Setup(x => x.Users).Returns(users);
 
             var usersService = new UsersService(userContextMock.Object);
 
@@ -67,26 +65,6 @@
 
             // Assert
             Assert.Equal(new List<User> {lockedUser}, lockedUsers);
-        }
-
-        private static Mock<DbSet<T>> CreateDbSetMock<T>(IEnumerable<T> elements) where T : class
-        {
-            var elementsAsQueryable = elements.AsQueryable();
-            var dbSetMock = new Mock<DbSet<T>>();
-
-            dbSetMock.As<IDbAsyncEnumerable<T>>()
-               .Setup(m => m.GetAsyncEnumerator())
-               .Returns(new InMemoryDbAsyncEnumerator<T>(elementsAsQueryable.GetEnumerator()));
-
-            dbSetMock.As<IQueryable<User>>()
-                .Setup(m => m.Provider)
-                .Returns(new InMemoryAsyncQueryProvider<T>(elementsAsQueryable.Provider));
-
-            dbSetMock.As<IQueryable<T>>().Setup(m => m.Expression).Returns(elementsAsQueryable.Expression);
-            dbSetMock.As<IQueryable<T>>().Setup(m => m.ElementType).Returns(elementsAsQueryable.ElementType);
-            dbSetMock.As<IQueryable<T>>().Setup(m => m.GetEnumerator()).Returns(elementsAsQueryable.GetEnumerator());
-
-            return dbSetMock;
         }
     }
 }
