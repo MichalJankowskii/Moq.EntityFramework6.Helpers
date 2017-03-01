@@ -1,9 +1,10 @@
-﻿namespace Moq.EntityFramework6.Helpers.Examples
+﻿namespace Moq.EntityFramework6.Helpers.Examples.Users
 {
     using System.Collections.Generic;
     using System.Data.Entity;
     using System.Linq;
     using System.Threading.Tasks;
+    using Entities;
 
     public class UsersService
     {
@@ -12,21 +13,6 @@
         public UsersService(UsersContext usersContext)
         {
             this.usersContext = usersContext;
-        }
-
-        public User AddUser(string login, string name, string surname)
-        {
-            var newUser = this.usersContext.Users.Add(
-                new User
-                {
-                    Login = login,
-                    Name = name,
-                    Surname = surname,
-                    AccountLocked = false
-                });
-
-            this.usersContext.SaveChanges();
-            return newUser;
         }
 
         public IList<User> GetLockedUsers()

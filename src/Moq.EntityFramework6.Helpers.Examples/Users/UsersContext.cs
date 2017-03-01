@@ -1,6 +1,7 @@
-﻿namespace Moq.EntityFramework6.Helpers.Examples
+﻿namespace Moq.EntityFramework6.Helpers.Examples.Users
 {
     using System.Data.Entity;
+    using Entities;
 
     public class UsersContext : DbContext
     {
