@@ -1,4 +1,4 @@
-﻿namespace Moq.EntityFramework6.Helpers.Tests.DbAsyncQueryProvider
+﻿namespace Moq.EntityFramework.Helpers.Tests.DbAsyncQueryProvider
 {
     using System.Linq;
     using System.Linq.Expressions;

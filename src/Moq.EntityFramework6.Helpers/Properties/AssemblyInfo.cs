@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Moq.EntityFramework6.Helpers")]
-[assembly: AssemblyDescription("Library that is providing methods that will help you with mocking EntityFramework6.")]
+[assembly: AssemblyTitle("Moq.EntityFramework.Helpers")]
+[assembly: AssemblyDescription("Library that provides methods that will help you with mocking EntityFramework.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Michał Jankowski (www.jankowskimichal.pl)")]
-[assembly: AssemblyProduct("Moq.EntityFramework6.Helpers")]
+[assembly: AssemblyProduct("Moq.EntityFramework.Helpers")]
 [assembly: AssemblyCopyright("Copyright Michał Jankowski ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

@@ -1,4 +1,4 @@
-﻿namespace Moq.EntityFramework6.Helpers.Examples
+﻿namespace Moq.EntityFramework.Helpers.Examples
 {
     using System.Collections.Generic;
     using System.Threading.Tasks;

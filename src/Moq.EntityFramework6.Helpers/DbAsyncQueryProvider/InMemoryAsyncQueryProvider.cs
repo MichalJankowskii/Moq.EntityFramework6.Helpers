@@ -1,4 +1,4 @@
-﻿namespace Moq.EntityFramework6.Helpers.DbAsyncQueryProvider
+﻿namespace Moq.EntityFramework.Helpers.DbAsyncQueryProvider
 {
     using System.Data.Entity.Infrastructure;
     using System.Linq;

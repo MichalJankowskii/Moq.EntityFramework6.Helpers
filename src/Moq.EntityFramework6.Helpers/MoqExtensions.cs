@@ -1,4 +1,4 @@
-﻿namespace Moq.EntityFramework6.Helpers
+﻿namespace Moq.EntityFramework.Helpers
 {
     using System.Collections.Generic;
     using System.Data.Entity;

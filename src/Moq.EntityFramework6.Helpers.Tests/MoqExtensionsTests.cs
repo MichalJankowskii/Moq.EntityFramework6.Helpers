@@ -1,4 +1,4 @@
-﻿namespace Moq.EntityFramework6.Helpers.Tests
+﻿namespace Moq.EntityFramework.Helpers.Tests
 {
     using System.Collections.Generic;
     using System.Data.Entity;
