@@ -2,7 +2,7 @@ $keyfile = "D:\Dropbox\nuget-access-key.txt"
 $scriptpath = split-path -parent $MyInvocation.MyCommand.Path
 $nugetpath = resolve-path "$scriptpath/../.nuget/nuget.exe"
 $packagespath = resolve-path "$scriptpath/../.build"
-$pathToDll = resolve-path "$scriptpath/../src/Moq.EntityFramework6.Helpers/bin/Publish/Moq.EntityFramework6.Helpers.dll"
+$pathToDll = resolve-path "$scriptpath/../src/Moq.EntityFramework6.Helpers/bin/Publish/Moq.EntityFramework.Helpers.dll"
 
 write-host $keyfile
 
