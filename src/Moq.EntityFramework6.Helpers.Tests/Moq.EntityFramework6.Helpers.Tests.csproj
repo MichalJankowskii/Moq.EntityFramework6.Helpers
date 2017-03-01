@@ -83,6 +83,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DbAsyncQueryProvider\InMemoryAsyncEnumerableTests.cs" />
+    <Compile Include="DbAsyncQueryProvider\InMemoryAsyncQueryProviderTests.cs" />
+    <Compile Include="DbAsyncQueryProvider\InMemoryDbAsyncEnumeratorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
