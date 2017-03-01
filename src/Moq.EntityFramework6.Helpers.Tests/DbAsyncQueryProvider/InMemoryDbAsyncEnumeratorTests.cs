@@ -27,7 +27,7 @@
         }
 
         [Fact]
-        public void Given_InMemoryDbAsyncEnumerator_When_Current_Then_CurrentFromInInnerEnumeratorShouleBeUsed()
+        public void Given_InMemoryDbAsyncEnumerator_When_Current_Then_CurrentFromInInnerEnumeratorShouldBeUsed()
         {
             // Act
             int result = this.inMemoryDbAsyncEnumerator.Current;
@@ -37,7 +37,7 @@
         }
 
         [Fact]
-        public void Given_InMemoryDbAsyncEnumerator_When_CurrentFromInterface_Then_CurrentFromInInnerEnumeratorShouleBeUsed()
+        public void Given_InMemoryDbAsyncEnumerator_When_CurrentFromInterface_Then_CurrentFromInInnerEnumeratorShouldBeUsed()
         {
             // Act
             object result = ((IDbAsyncEnumerator)this.inMemoryDbAsyncEnumerator).Current;

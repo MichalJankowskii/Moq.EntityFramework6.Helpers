@@ -18,7 +18,7 @@
         }
 
         [Fact]
-        public void Given_InMemoryAsyncQueryProvider_When_CreatingQuery_Then_CorrectInMemoryAsyncEnumerableIsRerturned()
+        public void Given_InMemoryAsyncQueryProvider_When_CreatingQuery_Then_CorrectInMemoryAsyncEnumerableIsReturned()
         {
             // Act
             IQueryable result = this.inMemoryAsyncQueryProvider.CreateQuery(this.expression);
@@ -29,7 +29,7 @@
         }
 
         [Fact]
-        public void Given_InMemoryAsyncQueryProvider_When_CreatingQueryGeneric_Then_CorrectInMemoryAsyncEnumerableIsRerturned()
+        public void Given_InMemoryAsyncQueryProvider_When_CreatingQueryGeneric_Then_CorrectInMemoryAsyncEnumerableIsReturned()
         {
             // Act
             IQueryable result = this.inMemoryAsyncQueryProvider.CreateQuery<int>(this.expression);

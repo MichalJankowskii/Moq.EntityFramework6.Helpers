@@ -11,7 +11,7 @@
     {
         [Fact]
         public void
-            Given_InMemoryAsyncEnumerable_When_GetAsyncEnumerator_Then_EnumeratorFromInInnerEnumerableShouleBeUsed()
+            Given_InMemoryAsyncEnumerable_When_GetAsyncEnumerator_Then_EnumeratorFromInInnerEnumerableShouldBeUsed()
         {
             // Arrange
             var enumerableMock = new Mock<IEnumerable<int>>();
@@ -26,7 +26,7 @@
 
         [Fact]
         public void
-            Given_InMemoryAsyncEnumerable_When_GetAsyncEnumeratorFromInterface_Then_EnumeratorFromInInnerEnumerableShouleBeUsed
+            Given_InMemoryAsyncEnumerable_When_GetAsyncEnumeratorFromInterface_Then_EnumeratorFromInInnerEnumerableShouldBeUsed
             ()
         {
             // Arrange
@@ -55,7 +55,7 @@
         }
 
         [Fact]
-        public void Given_Enumerable_When_ObjectCreated_Then_ObjectCorrectyBuild()
+        public void Given_Enumerable_When_ObjectCreated_Then_ObjectCorrectlyBuild()
         {
             // Arrange
             var enumerableMock = new Mock<IEnumerable<int>>();
@@ -68,7 +68,7 @@
         }
 
         [Fact]
-        public void Given_Expression_When_ObjectCreated_Then_ObjectCorrectyBuild()
+        public void Given_Expression_When_ObjectCreated_Then_ObjectCorrectlyBuild()
         {
             // Arrange
             var expressionMock = new Mock<Expression>().Object;
