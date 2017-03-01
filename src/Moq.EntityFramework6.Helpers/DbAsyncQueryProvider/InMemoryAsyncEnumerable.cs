@@ -5,13 +5,13 @@
     using System.Linq;
     using System.Linq.Expressions;
 
-    public class InMemeoryAsyncEnumerable<T> : EnumerableQuery<T>, IDbAsyncEnumerable<T>, IQueryable<T>
+    public class InMemoryAsyncEnumerable<T> : EnumerableQuery<T>, IDbAsyncEnumerable<T>, IQueryable<T>
     {
-        public InMemeoryAsyncEnumerable(IEnumerable<T> enumerable)
+        public InMemoryAsyncEnumerable(IEnumerable<T> enumerable)
             : base(enumerable)
         { }
 
-        public InMemeoryAsyncEnumerable(Expression expression)
+        public InMemoryAsyncEnumerable(Expression expression)
             : base(expression)
         { }
 

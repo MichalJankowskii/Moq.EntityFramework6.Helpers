@@ -17,12 +17,12 @@
 
         public IQueryable CreateQuery(Expression expression)
         {
-            return new InMemeoryAsyncEnumerable<TEntity>(expression);
+            return new InMemoryAsyncEnumerable<TEntity>(expression);
         }
 
         public IQueryable<TElement> CreateQuery<TElement>(Expression expression)
         {
-            return new InMemeoryAsyncEnumerable<TElement>(expression);
+            return new InMemoryAsyncEnumerable<TElement>(expression);
         }
 
         public object Execute(Expression expression)
