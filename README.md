@@ -1,6 +1,6 @@
 # Moq.EntityFramework.Helpers
 [![Build Status](https://travis-ci.org/MichalJankowskii/Moq.EntityFramework6.Helpers.svg?branch=master)](https://travis-ci.org/MichalJankowskii/Moq.EntityFramework6.Helpers)
-[![Downloads](https://img.shields.io/nuget/dt/Moq.EntityFramework.Helpers.svg)]()
+[![Downloads](https://img.shields.io/nuget/dt/Moq.EntityFramework.Helpers.svg)](https://github.com/MichalJankowskii/Moq.EntityFramework6.Helpers)
 
 This library helps you with mocking EntityFramework contexts. Now you will be able to test methods that are using `DbSet<TEntity>` from `DbContext` in effective way.
 ## Installation - NuGet Packages
